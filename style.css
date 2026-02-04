@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+body {
+      background-image: url(img/fone.jpg);
+      background-size: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+
+.header {
+    background-image: url(img/top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1440px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.header__search input {
+    background-color: #fff;
+}
+
+.developer {
+    padding: 30px;
+    margin-bottom: 30px;
+    max-width: 1440px;
+    background-color: #dddada;
+    border-radius: 20px;
+    
+}
+
+.developer__top {
+    height: 333px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    border-radius: 20px;
+    background-color: #747171;
+    align-items: center;
+    position: relative;
+}
+
+.developer__title {
+    position: absolute;
+    top: 21px;
+    left: 30px;
+}
+
+
+.developer__content {
+    color: #fff;
+    width: 70%;
+    font-size: 30px;
+    
+}
+
+.developer__content p {
+    text-align: center;
+}
+
+.developer__image {
+    background-image: url(img/developer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 29%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.buttons__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttons__list li {
+    width: 32%;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.info__text {
+    font-size: 50px;
+    color: #474747;
+    text-align: center;
+    
+}
+
+.apple {
+    width: 100%;
+}
+
+.apple img {
+    width: 100%;
+}
